@@ -3,7 +3,7 @@
 
 # The version of APIs your extension will receive. Learn more:
 # https://shopify.dev/docs/api/usage/versioning
-api_version = "2025-10"
+api_version = "2025-07"
 
 [[extensions]]
 name = "checkout-ui"
@@ -16,7 +16,7 @@ uid = "fddfc370-27c7-c30f-4ee0-a927194e2accadefd40c"
 # https://shopify.dev/docs/api/checkout-ui-extensions/latest/extension-targets-overview
 
 [[extensions.targeting]]
-module = "./src/Checkout.jsx"
+module = "./src/Checkout.tsx"
 target = "purchase.checkout.block.render"
 
 [extensions.capabilities]
