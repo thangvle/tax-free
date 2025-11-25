@@ -1,4 +1,4 @@
-api_version = "2025-10"
+api_version = "2025-07"
 [[extensions]]
 # Change the merchant-facing name of the extension in locales/en.default.json
 name = "t:name"
@@ -8,7 +8,7 @@ uid = "445422ce-7bc4-1b99-3eb8-d962b905950ab1ec7f5f"
 
 # Only 1 target can be specified for each Admin action extension
 [[extensions.targeting]]
-module = "./src/ActionExtension.jsx"
+module = "./src/ActionExtension.tsx"
 target = "admin.product-details.action.render"
 
 

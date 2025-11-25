@@ -28,6 +28,7 @@ function Extension() {
     <Banner title="checkout-ui" status="success">
       <Text>
         {translate('checkout-ui')}
+        <div>Hello</div>
       </Text>
     </Banner>
   );
